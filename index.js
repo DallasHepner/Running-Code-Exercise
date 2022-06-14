@@ -227,4 +227,5 @@ console.log('New Total: ', newTotal)
 */
 
 const savings = (newTotal / total);
-console.log((savings * 100) + "% " + "in savings!");
+const savingsTot = savings.toFixed(8);
+console.log((savingsTot * 100) + "% " + "in savings!");
